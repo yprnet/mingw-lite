@@ -1,6 +1,6 @@
-diff --unified --recursive --text gcc-11.2.0.orig/gcc/intl.c gcc-11.2.0/gcc/intl.c
---- gcc-11.2.0.orig/gcc/intl.c	2021-07-28 14:55:07.328287900 +0800
-+++ gcc-11.2.0/gcc/intl.c	2024-02-17 16:49:32.000000000 +0800
+diff --unified --recursive --text gcc-13.2.0.orig/gcc/intl.cc gcc-13.2.0/gcc/intl.cc
+--- gcc-13.2.0.orig/gcc/intl.cc	2023-07-27 16:13:04.000000000 +0800
++++ gcc-13.2.0/gcc/intl.cc	2024-02-14 13:43:07.483162078 +0800
 @@ -22,6 +22,12 @@
  #include "coretypes.h"
  #include "intl.h"
@@ -47,9 +47,9 @@ diff --unified --recursive --text gcc-11.2.0.orig/gcc/intl.c gcc-11.2.0/gcc/intl
    (void) textdomain ("gcc");
  
    /* Opening quotation mark.  */
-diff --unified --recursive --text gcc-11.2.0.orig/libcpp/init.c gcc-11.2.0/libcpp/init.c
---- gcc-11.2.0.orig/libcpp/init.c	2021-07-28 14:55:08.716307200 +0800
-+++ gcc-11.2.0/libcpp/init.c	2024-02-17 16:56:52.000000000 +0800
+diff --unified --recursive --text gcc-13.2.0.orig/libcpp/init.cc gcc-13.2.0/libcpp/init.cc
+--- gcc-13.2.0.orig/libcpp/init.cc	2023-07-27 16:13:07.000000000 +0800
++++ gcc-13.2.0/libcpp/init.cc	2024-02-14 13:42:44.969838638 +0800
 @@ -26,6 +26,12 @@
  #include "localedir.h"
  #include "filenames.h"
@@ -63,7 +63,7 @@ diff --unified --recursive --text gcc-11.2.0.orig/libcpp/init.c gcc-11.2.0/libcp
  #ifndef ENABLE_CANONICAL_SYSTEM_HEADERS
  #ifdef HAVE_DOS_BASED_FILE_SYSTEM
  #define ENABLE_CANONICAL_SYSTEM_HEADERS 1
-@@ -171,8 +177,33 @@
+@@ -181,8 +187,33 @@
        init_trigraph_map ();
  
  #ifdef ENABLE_NLS

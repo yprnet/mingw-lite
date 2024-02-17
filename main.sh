@@ -4,15 +4,15 @@ set -euxo pipefail
 
 export REV="3"
 
-export BINUTILS_VER="2.41"
-export MINGW_VER="11.0.1"
-export GCC_VER="13.2.0"
-export GMP_VER="6.3.0"
-export MPFR_VER="4.2.1"
-export MPC_VER="1.3.1"
+export BINUTILS_VER="2.37"
+export MINGW_VER="9.0.0"
+export GCC_VER="11.2.0"
+export GMP_VER="6.2.1"
+export MPFR_VER="4.1.0"
+export MPC_VER="1.2.1"
 export ICONV_VER="1.17"
-export GDB_VER="14.1"
-export MAKE_VER="4.4.1"
+export GDB_VER="11.1"
+export MAKE_VER="4.2.1"
 
 export _ARCH=""
 export _CLEAN=0

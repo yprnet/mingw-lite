@@ -29,6 +29,7 @@ mkdir -p "$build_dir" && cd "$build_dir"
   --enable-nls \
   --disable-win32-registry \
   --enable-mingw-wildcard \
+  --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-W64 project' \
   CFLAGS_FOR_TARGET="-Os" \
   CXXFLAGS_FOR_TARGET="-Os" \
   LDFLAGS_FOR_TARGET="-s" \
