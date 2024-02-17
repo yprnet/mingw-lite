@@ -11,7 +11,7 @@ mkdir -p "$build_dir" && cd "$build_dir"
   --target=$_TARGET \
   --host=$_TARGET \
   --enable-static \
-  --disable-shared \
+  --enable-shared \
   --with-pic \
   --with-gmp-include="$_DEP_DIR/include" \
   --with-gmp-lib="$_DEP_DIR/lib" \
@@ -29,6 +29,7 @@ mkdir -p "$build_dir" && cd "$build_dir"
   --enable-nls \
   --disable-win32-registry \
   --enable-mingw-wildcard \
+  --enable-lto \
   CFLAGS_FOR_TARGET="-Os" \
   CXXFLAGS_FOR_TARGET="-Os" \
   LDFLAGS_FOR_TARGET="-s" \
