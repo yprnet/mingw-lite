@@ -5,7 +5,7 @@ set -euxo pipefail
 cd "$_ASSETS_DIR"
 [[ -f "$_BINUTILS_ARCHIVE" ]] || curl -LO "http://ftp.gnu.org/gnu/binutils/$_BINUTILS_ARCHIVE"
 [[ -f "$_MINGW_ARCHIVE" ]] || curl -LO "https://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/$_MINGW_ARCHIVE"
-[[ -f "$_GCC_ARCHIVE" ]] || curl -LO "http://ftp.gnu.org/gnu/gcc/gcc-$GCC_VER/$_GCC_ARCHIVE"
+[[ -f "$_GCC_ARCHIVE" ]] || curl -LO "http://www.yuanpeirong.com/gcc/gcc-11.2.0.tar.xz"
 [[ -f "$_GMP_ARCHIVE" ]] || curl -LO "https://ftp.gnu.org/gnu/gmp/$_GMP_ARCHIVE"
 [[ -f "$_MPFR_ARCHIVE" ]] || curl -LO "https://ftp.gnu.org/gnu/mpfr/$_MPFR_ARCHIVE"
 [[ -f "$_MPC_ARCHIVE" ]] || curl -LO "https://ftp.gnu.org/gnu/mpc/$_MPC_ARCHIVE"
