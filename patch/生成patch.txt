@@ -3,3 +3,7 @@ diff --unified --recursive --text gcc-11.2.0.orig/libcpp/init.c gcc-11.2.0/libcp
 
 
 diff --unified --recursive --text gcc-11.2.0.orig/gcc/intl.c gcc-11.2.0/gcc/intl.c gcc-11.2.0.orig/libcpp/init.c gcc-11.2.0/libcpp/init.c > gcc-fix-localedir1.patch
+
+
+dos2unix gcc11.2.0-fix-localedir.patch
+dos2unix gcc13.2.0-fix-localedir.patch
