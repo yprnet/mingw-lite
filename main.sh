@@ -4,7 +4,7 @@ set -euxo pipefail
 
 export REV="3"
 
-export BINUTILS_VER="2.37"
+export BINUTILS_VER="2.41"
 export MINGW_VER="9.0.0"
 export GCC_VER="11.2.0"
 export GMP_VER="6.2.1"
